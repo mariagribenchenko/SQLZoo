@@ -16,3 +16,11 @@ SELECT name, population
 FROM world
 WHERE name IN ('Sweden', 'Norway', 'Denmark')
 ```
+
+## Ejercicio 03.
+
+```sql
+SELECT name, area 
+FROM world
+WHERE area BETWEEN 200000 AND 250000
+```
